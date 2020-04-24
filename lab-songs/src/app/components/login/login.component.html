@@ -1,0 +1,15 @@
+<form [formGroup]="loginForm"(ngSubmit)="enterLogin(loginForm.value)">
+    <div>
+        <label for="email">Email</label>
+        <input type="email" formControlName="email" >
+    </div>
+    <div>
+        <label for="password">password</label>
+        <input type="password" formControlName ="password">
+    </div>
+<button  type="submit" class="btn btn-success">Enter</button>
+
+</form>
+
+
+
