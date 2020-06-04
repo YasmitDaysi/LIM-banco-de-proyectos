@@ -1,0 +1,27 @@
+<h1>Ranking de musicas</h1>
+<hr>
+<table  class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Título</th>
+      <th scope="col">Artista</th>
+      <th scope="col">imagen</th>
+    </tr>
+    </thead> 
+    <cdk-virtual-scroll-viewport itemSize ="5" class="list-container">
+
+    <tbody>
+
+  <tr *cdkVirtualFor = "let song of newArr; let i = index; let conteo  = count">
+    <th scope="row">{{ i + 1 }}</th>
+    <td>   {{song.nameSong}}</td> 
+    <td> {{song.nameArtist}}</td>
+    <td *ngIf = "song.size === 'small'"> <img src="{{song.image}}" alt=""></td>  
+
+  </tr>
+</tbody>
+
+</cdk-virtual-scroll-viewport>
+
+</table>

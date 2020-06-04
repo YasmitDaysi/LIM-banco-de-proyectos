@@ -1,14 +1,27 @@
-# Proyectos
+# LabSongs
 
-El principal objetivo de esta extensión de bootcamp es que puedas seguir profundizando en los fundamentos de javascript y la librería o framework que hayas escogido aprender. Por lo cual en este repositorio encontrarás diversos ejercicios y retos que te ayudaran a seguir profundizando en tu aprendizaje.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
 
-## Retos
+## Development server
 
-- [Pinterest](02-pinterest.md)
-- [Lab-songs](01-lab-songs.md)
-- [Juego de memoria](03-cards-memory.md)
-- [Movie Challenge](04-movie-challenge)
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Ejercicios
+## Code scaffolding
 
-- [Javascript: Retos de código](06-javascript-exercises)
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
